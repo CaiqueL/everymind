@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
 import { BigCard } from "../../../components/BigCard";
 
-const Perfil = () => {
+const VagasUsuario = () => {
     return (
       <div>
-        <BigCard/>
+       
       </div>  
     )
 };
 
-export default Perfil;
+export default VagasUsuario;

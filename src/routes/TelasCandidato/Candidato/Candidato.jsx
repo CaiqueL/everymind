@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 const Candidato = () => {
   const containerStyle = {
@@ -62,11 +62,22 @@ const Candidato = () => {
           >
             <NavLink to="/Candidato/Perfil">Perfil</NavLink>
           </button>
-          <button style={buttonStyle}>Minhas Vagas</button>
-          <button style={buttonStyle}>Vagas Disponíveis</button>
-          <button style={buttonStyle}>Testes</button>
-          <button style={buttonStyle}>Entrevistas</button>
-          <button style={buttonStyle}>Feedbacks</button>
+
+          <button style={buttonStyle}>
+            <Link to="/Candidato/VagasUsuario">Minhas Vagas</Link></button>
+
+          <button style={buttonStyle}>
+            <Link to="/Candidato/VagasDisponiveis">Vaga Disponíveis</Link></button>
+
+          <button style={buttonStyle}>
+            <Link to="/Candidato/TestesUsuario">Testes</Link></button>
+
+          <button style={buttonStyle}>
+            <Link to="/Candidato/Entrevistas">Entrevistas</Link></button>
+
+          <button style={buttonStyle}>
+            <Link to="/Candidato/Feedbacks">Feedback</Link></button>
+          
         </div>
     </div>
     <div>

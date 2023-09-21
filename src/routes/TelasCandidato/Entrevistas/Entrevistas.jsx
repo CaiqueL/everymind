@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { BigCard } from "../../../components/BigCard";
 
-const Perfil = () => {
+const Entrevistas = () => {
     return (
       <div>
         <BigCard/>
@@ -9,4 +9,4 @@ const Perfil = () => {
     )
 };
 
-export default Perfil;
+export default Entrevistas;

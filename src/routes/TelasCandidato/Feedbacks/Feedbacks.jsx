@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { BigCard } from "../../../components/BigCard";
 
-const Perfil = () => {
+const Feedbacks = () => {
     return (
       <div>
         <BigCard/>
@@ -9,4 +9,4 @@ const Perfil = () => {
     )
 };
 
-export default Perfil;
+export default Feedbacks;

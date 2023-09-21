@@ -7,7 +7,17 @@ import Login from './routes/Login/Login.jsx'
 import RecuperarSenha from './routes/RecuperarSenha/RecuperarSenha.jsx'
 import CadastroUsuario from './routes/CadastroUsuario/CadastroUsuario.jsx'
 import CadastroEmpresa from './routes/CadastroEmpresa/CadastroEmpresa.jsx'
+
+import Candidato from './routes/TelasCandidato/Candidato/Candidato.jsx'
+
 import Perfil from './routes/TelasCandidato/Perfil/Perfil.jsx'
+import VagasUsuario from './routes/TelasCandidato/MinhasVagas/MinhasVagas.jsx'
+import TestesUsuario from './routes/TelasCandidato/Testes/TestesUsuario.jsx'
+import Entrevistas from './routes/TelasCandidato/Entrevistas/Entrevistas.jsx'
+import Feedbacks from './routes/TelasCandidato/Feedbacks/Feedbacks.jsx'
+import VagasDisponiveis from './routes/TelasCandidato/VagasDisponiveis/VagasDisponiveis.jsx'
+
+
 
 import {
   createBrowserRouter,
@@ -15,7 +25,7 @@ import {
   Route,
   createRoutesFromElements
 } from'react-router-dom'
-import Candidato from './routes/TelasCandidato/Candidato/Candidato.jsx'
+
 
 
 
@@ -30,7 +40,11 @@ const router = createBrowserRouter(
       <Route path='/Candidato' element={<Candidato/>}>
 
         <Route path='Perfil' element={<Perfil/>}/>
-
+        <Route path='VagasUsuario' element={<VagasUsuario/>}/>
+        <Route path='VagasDisponiveis' element={<VagasDisponiveis/>}/>
+        <Route path='TestesUsuario' element={<TestesUsuario/>}/>
+        <Route path='Entrevistas' element={<Entrevistas/>}/>
+        <Route path='Feedbacks' element={<Feedbacks/>}/>
 
       </Route>
 
