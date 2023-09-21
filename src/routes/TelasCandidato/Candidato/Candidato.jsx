@@ -66,7 +66,7 @@ const Candidato = () => {
         <button style={buttonStyle}>Feedbacks</button>
       </div>
       <Outlet/>
-    <div/>
+   </div>
   );
 };
 
