@@ -1,7 +1,11 @@
 import { Outlet } from "react-router-dom"
 const Perfil = () => {
     return (
-        <Outlet/>
+    
+        <h1>teste</h1>
+        
+        
+        
     )
 };
 
