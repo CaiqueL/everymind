@@ -5,6 +5,7 @@ const VagasUsuario = () => {
     return (
       <div>
        
+       
       </div>  
     )
 };

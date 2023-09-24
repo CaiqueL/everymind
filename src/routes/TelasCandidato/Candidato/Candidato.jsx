@@ -25,6 +25,12 @@ const Candidato = () => {
 
   return (
     <>
+       <div>
+
+        <Outlet/>
+
+      </div>
+
       <div style={containerStyle}>
         
         <div>
@@ -80,12 +86,7 @@ const Candidato = () => {
           
         </div>
     </div>
-    <div>
-
-      <Outlet/>
-
-    </div>
-    
+   
 
    </>
   );

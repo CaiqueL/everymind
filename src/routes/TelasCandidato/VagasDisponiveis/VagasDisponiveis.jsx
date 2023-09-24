@@ -4,7 +4,9 @@ import { BigCard } from "../../../components/BigCard";
 const VagasDisponiveis = () => {
     return (
       <div>
+        
         <BigCard/>
+
       </div>  
     )
 };
